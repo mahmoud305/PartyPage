@@ -1,0 +1,246 @@
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.home{
+    height: 85vh;
+    position: relative;
+    background-image: url(../imges/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.redLayer{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    
+}
+
+.homeDetails h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.homeDetails h1,p{
+    text-align: center;
+}
+.homeDetails{
+    position: relative;
+    transition: left 1s;
+}
+ 
+#openSideNav{
+margin: 20px;
+font-size: 30px;
+cursor: pointer;
+}
+#sideNav {
+    box-sizing: border-box;
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    padding: 50px;
+    background-color: rgb(65, 70, 88);
+    transition: left 1s;
+}
+
+#exitIcon{
+    font-weight: 600;
+    /* padding: 50px; */
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.navLinks a{
+text-decoration: none;
+font-size: 25px;
+color: white;
+margin-top: 50px;
+/* background-color: yellow; */
+width: fit-content;
+}
+
+/*************Singers***************/
+#singers{
+    width: 50%;
+}
+#singers h3{
+padding: 10px;
+background-color:  rgba(214, 46, 51, 0.6);
+cursor: pointer;
+color: white;
+margin: 0;
+}
+
+#singers div{
+    background-color: rgb(204, 204, 204);
+    padding: 10px;
+    font-size: 14px;
+    display: none;
+}
+
+/******************* Counter **********************/
+.allJoin{
+    height: 70vh;
+}
+#JoinUs{
+    background-image: url(../imges/invitation.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+.counterItem{
+    padding: 50px;
+    border: 1px solid #FFF;
+    color :#FFF;
+ }
+ .col-xs-3{
+     width: 25%;
+ }
+
+ /************Contact ******************/
+ .mutedColor{
+     color: #777777;
+     /* //#d62e33 */
+ }
+ .joinUsHeader{
+     font-size: 35px;
+ }
+.contactDetails h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0px;
+    color: #000;
+}
+
+ .socialLinks a{
+/*lehhhhhhhhhhhhhhhhhhhhh msh rady ya5d fixed width w height*/
+    /* width: 200px;
+height: 200px !important; */
+margin: 10px;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+color: #777777;
+background-color: white;
+border: 1px solid #777777;
+transition: background-color 0.5s;
+ }
+
+ .socialLinks a:hover i{
+     color: white;
+ }
+ .socialLinks a:hover {
+    background-color: red;
+}
+::placeholder{
+    font-size: 20px;
+}
+/**********mediaQuery *****************************************************/
+@media screen and (max-width:576px) {
+    .homeDetails h1{
+        font-size: 40px;
+        /* color: tomato; */
+    }
+    #openSideNav{
+        margin: 10px;
+        font-size: 20px;
+       
+        }
+    .navLinks a{
+        font-size: 12px;
+    }
+    #sideNav {
+        padding: 50px 25px;   
+    }
+
+    #singers{
+        width: 75%;
+    }
+
+    .counterItem h3{
+        font-size: 15px;
+    }
+    .counterItem{
+        padding: 20px;
+      
+     }
+}
+
+
+@media screen and (max-width:768px) and (min-width:577px)  {
+    .homeDetails h1{
+        font-size: 45px;
+        /* color: yellow; */
+    }
+    #openSideNav{
+        margin: 15px;
+        font-size: 20px;
+       
+        }
+    .navLinks a{
+        font-size: 16px;
+    }
+
+    #sideNav {
+        padding: 50px 35px;
+    }
+    #singers{
+        width: 75%;
+    }
+
+    .counterItem h3{
+        font-size: 17px;
+    }
+    .counterItem{
+        padding: 25px;
+      
+     }
+}
+
+
+
+@media screen and (max-width:992px) and (min-width:769px)  {
+    .homeDetails h1{
+        font-size: 47px;
+        /* color: blue; */
+    }
+    #openSideNav{
+        margin: 18px;
+        font-size: 25px;
+       
+        }
+    .navLinks a{
+        font-size: 20px;
+    }
+
+    #sideNav {
+        padding: 50px 40px;
+        
+    }
+
+    .counterItem h3{
+        font-size: 18px;
+    }
+    .counterItem{
+        padding: 35px;
+      
+     }
+}
+
+
+@media screen and (max-width:1200px)and (min-width:993px)  {
+    
+}
+
+
+@media screen and (max-width:1400px)and (min-width:1201px)  {
+    
+}
